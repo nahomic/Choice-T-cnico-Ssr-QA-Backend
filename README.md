@@ -48,6 +48,9 @@
         Este comando ejecutará todas las pruebas en modo headless (sin interfaz gráfica) y mostrará los resultados en la terminal.
 
 ## Descripción de las Pruebas Implementadas
+**Prueba en la UI:**
+Registro de Usuario:
+Se ejecuta un test que permite la creación de un nuevo usuario y valida que el registro sea exitoso.
 
-Prueba en la API:
+**Prueba en la API:**
 Valida que los endpoints /system/ping, /system/version, y otros responden con código 200, con la estructura correcta del cuerpo ( ok, date, etc.), y que el tiempo de respuesta sea menor a 3 segundos. También compruebe que los encabezados contienen la información esperada.
